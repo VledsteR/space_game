@@ -12,8 +12,8 @@ public class ImageHandler {
 
     public void getImage(){
         try{
-            home_screen = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/background/home_screen.png")));
-            background = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/background/background.png")));
+            home_screen = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/background/Home_Screen.png")));
+            background = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/background/Background.png")));
             windowIcon = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/icons/Icon.png")));
             staticPlayer = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/staticPlayer.png")));
             playerMove1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/playerMove1.png")));
